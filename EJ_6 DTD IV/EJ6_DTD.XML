@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE deportes [
+  <!ELEMENT deportes (deporte*)>
+  <!ELEMENT deporte (nombre, tipo)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT tipo (#PCDATA)>
+]>
+<deportes>
+  <deporte>
+    <nombre>Fútbol</nombre>
+    <tipo>Colectivo</tipo>
+  </deporte>
+  <deporte>
+    <nombre>Tenis</nombre>
+    <tipo>Individual</tipo>
+  </deporte>
+</deportes>

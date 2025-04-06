@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE musica [
+  <!ELEMENT musica (cancion+)>
+  <!ELEMENT cancion (titulo, interprete)>
+  <!ELEMENT titulo (#PCDATA)>
+  <!ELEMENT interprete (#PCDATA)>
+]>
+<musica>
+  <cancion>
+    <titulo>Bohemian Rhapsody</titulo>
+    <interprete>Queen</interprete>
+  </cancion>
+  <cancion>
+    <titulo>Smells Like Teen Spirit</titulo>
+    <interprete>Nirvana</interprete>
+  </cancion>
+</musica>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE empleados [
+  <!ELEMENT empleados (empleado*)>
+  <!ELEMENT empleado (nombre, puesto)>
+  <!ELEMENT nombre (#PCDATA)>
+  <!ELEMENT puesto (#PCDATA)>
+]>
+<empleados>
+  <empleado>
+    <nombre>Pedro Sánchez</nombre>
+    <puesto>Programador</puesto>
+  </empleado>
+  <empleado>
+    <nombre>Ana López</nombre>
+    <puesto>Diseñadora</puesto>
+  </empleado>
+</empleados>

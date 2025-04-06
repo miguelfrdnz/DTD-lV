@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE nombres [
+  <!ELEMENT nombres (nombre+)>
+  <!ELEMENT nombre (#PCDATA)>
+]>
+<nombres>
+  <nombre>Pepe</nombre>
+  <nombre>Luis</nombre>
+  <nombre>Cristina</nombre>
+</nombres>
+
